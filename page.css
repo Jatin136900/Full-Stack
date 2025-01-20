@@ -4,6 +4,14 @@
     box-sizing: border-box;
     font-family: "Poppins";
 }
+
+.all{
+    background-color: black;
+    color: yellow;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
 .first1 p{
     color: #f27144;
 }
@@ -15,7 +23,6 @@
     /* background-color: #2691bf; */
     width: 45%;
     color: #fff;
-
 
 }
 .first{
@@ -273,6 +280,8 @@ opacity: 1;
 }
 .ironman2{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .mobile{
     display: flex;
@@ -374,6 +383,21 @@ border: solid #fff;
 .links3 span{
     font-size: 30px;
     padding-right: 15px;
+    color: black;
+}
+.links3 span:hover{
+    color: #de4d18;
+}
+.first2 a{
+    text-decoration: none;
+    color: #fff;
+}
+.first2 a:hover{
+    text-decoration: underline;
+    color: #de4d18;
+}
+.links ul a:hover{
+    text-decoration: underline;
 }
 .mega{
     background-color: #5a5a5a;

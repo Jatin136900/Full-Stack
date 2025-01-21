@@ -88,8 +88,8 @@
     transition: 0.5s linear;
 }
  .firstt3 a:hover{
-    background-color: blue;
-    color: black;
+    background-color: #2691bf;
+    color: white;
  }
 .background{
     background-image: url(img.png);
@@ -168,8 +168,8 @@ opacity: 1;
     transition: 0.5s linear;
 }
 .hulk a:hover{
-    background-color: blue;
-    color: black;
+    background-color: #2691bf;
+    color: #fff;
 }
 .hulk1{
     text-align: center;
@@ -185,7 +185,7 @@ opacity: 1;
 .hulk2 a{
     text-decoration: none;
     color: #fff;
-    background-color: #2691bf;
+    background-color: #f27144;
     font-weight: 600;
     border-radius: 7px;
     padding: 8px 20px;
@@ -196,8 +196,8 @@ opacity: 1;
 
 }
 .hulk2 a:hover{
-        background-color: blue;
-        color: black;
+    background-color: #2691bf;
+    color: #fff;
 }
 .hulk2 p{
     margin-bottom: 40px;
@@ -261,8 +261,8 @@ opacity: 1;
     transition: 0.5s linear;
 }
 .iron1 a:hover{
-    background-color: blue;
-    color: black;
+    background-color: #2691bf;
+    color: #fff;
 
 }
 .div1{
@@ -284,9 +284,8 @@ opacity: 1;
 
 
 .div1 a:hover{
-    background-color: blue;
-    color: black;
-
+    background-color: #2691bf;
+    color: #fff;
 }
 .iron3{
     width: 81%;
@@ -354,8 +353,8 @@ opacity: 1;
     transition: 0.5s linear;
 }
 .ironman1 a:hover{
-    background-color: blue;
-    color: black;
+    background-color: #2691bf;
+    color: #fff;
 
 }
 .div i{

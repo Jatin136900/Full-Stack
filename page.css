@@ -35,11 +35,6 @@
         transform: translateX(700%);
     }
 }
-
-
-
-
-
 .first1 p{
     color: #f27144;
 }
@@ -90,8 +85,12 @@
     padding: 7px 10px;
     border-radius: 5px;
     font-weight: 800;
-
+    transition: 0.5s linear;
 }
+ .firstt3 a:hover{
+    background-color: blue;
+    color: black;
+ }
 .background{
     background-image: url(img.png);
     max-width: 100%;
@@ -166,9 +165,11 @@ opacity: 1;
     font-size: 20px;
     margin-left: 10px;
     border: solid white;
+    transition: 0.5s linear;
 }
 .hulk a:hover{
-    background-color: aqua;
+    background-color: blue;
+    color: black;
 }
 .hulk1{
     text-align: center;
@@ -191,6 +192,12 @@ opacity: 1;
     font-size: 20px;
     /* margin-left: 10px; */
     border: solid 2px #f27144;
+    transition: 0.5s linear;
+
+}
+.hulk2 a:hover{
+        background-color: blue;
+        color: black;
 }
 .hulk2 p{
     margin-bottom: 40px;
@@ -251,6 +258,12 @@ opacity: 1;
     font-size: 20px;
     margin-right: 18px;
     /* border: solid #f27144; */
+    transition: 0.5s linear;
+}
+.iron1 a:hover{
+    background-color: blue;
+    color: black;
+
 }
 .div1{
     margin-top: 35px;
@@ -265,6 +278,15 @@ opacity: 1;
     font-size: 20px;
     margin-right: 18px;
     /* border: solid #f27144; */
+    transition: 0.5s linear;
+
+}
+
+
+.div1 a:hover{
+    background-color: blue;
+    color: black;
+
 }
 .iron3{
     width: 81%;
@@ -329,6 +351,12 @@ opacity: 1;
     font-size: 20px;
     margin-right: 18px;
     /* border: solid #f27144; */
+    transition: 0.5s linear;
+}
+.ironman1 a:hover{
+    background-color: blue;
+    color: black;
+
 }
 .div i{
     color: #fff;

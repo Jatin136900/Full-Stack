@@ -24,15 +24,14 @@
 .animation p{
     font-size: 20px;
     animation: jatin 8s linear infinite;
+    position: absolute;
 
 }
 @keyframes jatin{
     0%{
-        position: absolute;
         transform: translateX(-100%);
     }
     100%{
-        position: absolute;
         transform: translateX(700%);
     }
 }

@@ -5,13 +5,42 @@
     font-family: "Poppins";
 }
 
-.all{
+/* .all{
     background-color: black;
     color: yellow;
     height: 40px;
     display: flex;
     align-items: center;
+} */
+
+.animation{
+    background-color: black;
+    color: yellow;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    position: relative;
 }
+.animation p{
+    font-size: 20px;
+    animation: jatin 8s linear infinite;
+
+}
+@keyframes jatin{
+    0%{
+        position: absolute;
+        transform: translateX(-100%);
+    }
+    100%{
+        position: absolute;
+        transform: translateX(700%);
+    }
+}
+
+
+
+
+
 .first1 p{
     color: #f27144;
 }
@@ -260,7 +289,7 @@ opacity: 1;
 }
 .ironman1 img{
     height: 200px;
-    width: 300px;
+    width: 100%;
     border-radius: 12px;
 }
 .ironman1{
